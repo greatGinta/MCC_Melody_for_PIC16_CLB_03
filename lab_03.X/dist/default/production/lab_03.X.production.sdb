@@ -1,0 +1,549 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F13145 ]
+[d frameptr 6 ]
+"53 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/nvm/src/nvm.c
+[e E6509 . `uc
+NVM_OK 0
+NVM_ERROR 1
+]
+"10 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"60 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\main.c
+[v _WriteLEDsArray WriteLEDsArray `(v  1 s 1 WriteLEDsArray ]
+"66
+[v _main main `(i  1 e 2 0 ]
+"45 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/clb/src/clb1.c
+[v _CLB1_Initialize CLB1_Initialize `(v  1 e 1 0 ]
+"103
+[v _CLB1_IsCLBSWINBusy CLB1_IsCLBSWINBusy `T(a  1 e 1 0 ]
+"108
+[v _CLB1_Configure CLB1_Configure `(v  1 e 1 0 ]
+"43 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_Initialize CRC_Initialize `(v  1 e 1 0 ]
+"133
+[v _CRC_ReverseValue CRC_ReverseValue `(ul  1 s 4 CRC_ReverseValue ]
+"192
+[v _CRC_StartNvmScanner CRC_StartNvmScanner `T(v  1 e 1 0 ]
+"202
+[v _CRC_StopNvmScanner CRC_StopNvmScanner `T(v  1 e 1 0 ]
+"212
+[v _CRC_SetScannerAddressLimit CRC_SetScannerAddressLimit `(v  1 e 1 0 ]
+"220
+[v _CRC_IsScannerBusy CRC_IsScannerBusy `T(a  1 e 1 0 ]
+"43 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+"60 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/spi/src/mssp1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"72
+[v _SPI1_Deinitialize SPI1_Deinitialize `(v  1 e 1 0 ]
+"81
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"102
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"107
+[v _SPI1_BufferExchange SPI1_BufferExchange `(v  1 e 1 0 ]
+"125
+[v _SPI1_BufferWrite SPI1_BufferWrite `(v  1 e 1 0 ]
+"142
+[v _SPI1_BufferRead SPI1_BufferRead `(v  1 e 1 0 ]
+"160
+[v _SPI1_ByteExchange SPI1_ByteExchange `(uc  1 e 1 0 ]
+"171
+[v _SPI1_ByteWrite SPI1_ByteWrite `(v  1 e 1 0 ]
+"176
+[v _SPI1_ByteRead SPI1_ByteRead `(uc  1 e 1 0 ]
+"185
+[v _SPI1_IsRxReady SPI1_IsRxReady `(a  1 e 1 0 ]
+"199
+[v _SPI1_IsTxReady SPI1_IsTxReady `(a  1 e 1 0 ]
+"39 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"40 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"62
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"71
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"75
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"39 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+[s S42 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"368 C:/Users/ESOURCE/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.27.418/xc8\pic\include\proc/pic16f13145.h
+[u S47 . 1 `S42 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES47  1 e 1 @11 ]
+"539
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"584
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"623
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"685
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+"730
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+"769
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S29 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"844
+[u S34 . 1 `S29 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES34  1 e 1 @140 ]
+[s S315 . 1 `uc 1 NVMIF 1 0 :1:0 
+`uc 1 CRCIF 1 0 :1:1 
+`uc 1 SCANIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CSWIF 1 0 :1:4 
+`uc 1 OSFIF 1 0 :1:5 
+`uc 1 TMR1IF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"881
+[u S324 . 1 `S315 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES324  1 e 1 @141 ]
+[s S711 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 SSP1IF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 CM1IF 1 0 :1:6 
+`uc 1 CM2IF 1 0 :1:7 
+]
+"1028
+[u S718 . 1 `S711 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES718  1 e 1 @145 ]
+[s S501 . 1 `uc 1 CLB1IF0 1 0 :1:0 
+`uc 1 CLB1IF1 1 0 :1:1 
+`uc 1 CLB1IF2 1 0 :1:2 
+`uc 1 CLB1IF3 1 0 :1:3 
+]
+"1092
+[u S506 . 1 `S501 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES506  1 e 1 @147 ]
+[s S336 . 1 `uc 1 NVMIE 1 0 :1:0 
+`uc 1 CRCIE 1 0 :1:1 
+`uc 1 SCANIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 CSWIE 1 0 :1:4 
+`uc 1 OSFIE 1 0 :1:5 
+`uc 1 TMR1IE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1167
+[u S345 . 1 `S336 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES345  1 e 1 @151 ]
+[s S694 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 SSP1IE 1 0 :1:2 
+`uc 1 BCL1IE 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 CM1IE 1 0 :1:6 
+`uc 1 CM2IE 1 0 :1:7 
+]
+"1314
+[u S701 . 1 `S694 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES701  1 e 1 @155 ]
+[s S514 . 1 `uc 1 CLB1IE0 1 0 :1:0 
+`uc 1 CLB1IE1 1 0 :1:1 
+`uc 1 CLB1IE2 1 0 :1:2 
+`uc 1 CLB1IE3 1 0 :1:3 
+]
+"1378
+[u S519 . 1 `S514 1 . 1 0 ]
+[v _PIE7bits PIE7bits `VES519  1 e 1 @157 ]
+"3077
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @653 ]
+"3217
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @655 ]
+"3308
+[v _OSCEN OSCEN `VEuc  1 e 1 @657 ]
+"3360
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @658 ]
+"3418
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @659 ]
+[s S472 . 1 `uc 1 BUSY 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 EN 1 0 :1:7 
+]
+"5597
+[s S476 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CLBEN 1 0 :1:7 
+]
+[u S479 . 1 `S472 1 . 1 0 `S476 1 . 1 0 ]
+[v _CLBCONbits CLBCONbits `VES479  1 e 1 @1292 ]
+"5617
+[v _CLBSWINU CLBSWINU `VEuc  1 e 1 @1293 ]
+"5687
+[v _CLBSWINH CLBSWINH `VEuc  1 e 1 @1294 ]
+"5757
+[v _CLBSWINM CLBSWINM `VEuc  1 e 1 @1295 ]
+"5827
+[v _CLBSWINL CLBSWINL `VEuc  1 e 1 @1296 ]
+"5897
+[v _CLBCLK CLBCLK `VEuc  1 e 1 @1301 ]
+"5943
+[v _CLBPPSCON4 CLBPPSCON4 `VEuc  1 e 1 @1302 ]
+"5969
+[v _CLBPPSCON3 CLBPPSCON3 `VEuc  1 e 1 @1303 ]
+"5995
+[v _CLBPPSCON2 CLBPPSCON2 `VEuc  1 e 1 @1304 ]
+"6021
+[v _CLBPPSCON1 CLBPPSCON1 `VEuc  1 e 1 @1305 ]
+"6996
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @1932 ]
+"7016
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @1933 ]
+"7206
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @1935 ]
+"7570
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @1936 ]
+[s S732 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"7600
+[s S738 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S743 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S752 . 1 `S732 1 . 1 0 `S738 1 . 1 0 `S743 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES752  1 e 1 @1936 ]
+"7877
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @1938 ]
+"8804
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @7308 ]
+"8874
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @7309 ]
+"8945
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @7310 ]
+"9015
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @7311 ]
+[s S96 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 LWLO 1 0 :1:5 
+`uc 1 NVMREGS 1 0 :1:6 
+]
+"9089
+[u S104 . 1 `S96 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES104  1 e 1 @7312 ]
+"9129
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @7313 ]
+"9149
+[v _SCANCON0 SCANCON0 `VEuc  1 e 1 @7314 ]
+[s S378 . 1 `uc 1 MD 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 INTM 1 0 :1:3 
+`uc 1 DABORT 1 0 :1:4 
+`uc 1 BUSY 1 0 :1:5 
+`uc 1 SGO 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"9169
+[s S386 . 1 `uc 1 MD0 1 0 :1:0 
+`uc 1 MD1 1 0 :1:1 
+]
+[u S389 . 1 `S378 1 . 1 0 `S386 1 . 1 0 ]
+[v _SCANCON0bits SCANCON0bits `VES389  1 e 1 @7314 ]
+"9221
+[v _SCANLADRL SCANLADRL `VEuc  1 e 1 @7315 ]
+"9241
+[v _SCANLADRH SCANLADRH `VEuc  1 e 1 @7316 ]
+"9268
+[v _SCANHADRL SCANHADRL `VEuc  1 e 1 @7318 ]
+"9288
+[v _SCANHADRH SCANHADRH `VEuc  1 e 1 @7319 ]
+[s S404 . 1 `uc 1 DPS 1 0 :1:0 
+]
+"9318
+[u S406 . 1 `S404 1 . 1 0 ]
+[v _SCANDPSbits SCANDPSbits `VES406  1 e 1 @7321 ]
+"9328
+[v _SCANTRIG SCANTRIG `VEuc  1 e 1 @7322 ]
+"9355
+[v _CRCDATAL CRCDATAL `VEuc  1 e 1 @7325 ]
+"9425
+[v _CRCDATAH CRCDATAH `VEuc  1 e 1 @7326 ]
+"9495
+[v _CRCDATAU CRCDATAU `VEuc  1 e 1 @7327 ]
+"9565
+[v _CRCDATAT CRCDATAT `VEuc  1 e 1 @7328 ]
+"9651
+[v _CRCOUTL CRCOUTL `VEuc  1 e 1 @7329 ]
+"9859
+[v _CRCXORL CRCXORL `VEuc  1 e 1 @7329 ]
+"9929
+[v _CRCOUTH CRCOUTH `VEuc  1 e 1 @7330 ]
+"10137
+[v _CRCXORH CRCXORH `VEuc  1 e 1 @7330 ]
+"10207
+[v _CRCOUTU CRCOUTU `VEuc  1 e 1 @7331 ]
+"10415
+[v _CRCXORU CRCXORU `VEuc  1 e 1 @7331 ]
+"10485
+[v _CRCOUTT CRCOUTT `VEuc  1 e 1 @7332 ]
+"10693
+[v _CRCXORT CRCXORT `VEuc  1 e 1 @7332 ]
+"10763
+[v _CRCCON0 CRCCON0 `VEuc  1 e 1 @7333 ]
+[s S260 . 1 `uc 1 FULL 1 0 :1:0 
+`uc 1 SHIFTM 1 0 :1:1 
+`uc 1 SETUP 1 0 :2:2 
+`uc 1 ACCMOD 1 0 :1:4 
+`uc 1 CRCBUSY 1 0 :1:5 
+`uc 1 CRCGO 1 0 :1:6 
+`uc 1 CRCEN 1 0 :1:7 
+]
+"10789
+[s S268 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LENDIAN 1 0 :1:1 
+`uc 1 SETUP0 1 0 :1:2 
+`uc 1 SETUP1 1 0 :1:3 
+`uc 1 ACCM 1 0 :1:4 
+`uc 1 BUSY 1 0 :1:5 
+`uc 1 GO 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[u S277 . 1 `S260 1 . 1 0 `S268 1 . 1 0 ]
+[v _CRCCON0bits CRCCON0bits `VES277  1 e 1 @7333 ]
+"10864
+[v _CRCCON1 CRCCON1 `VEuc  1 e 1 @7334 ]
+[s S358 . 1 `uc 1 PLEN 1 0 :5:0 
+]
+"10881
+[s S360 . 1 `uc 1 PLEN0 1 0 :1:0 
+`uc 1 PLEN1 1 0 :1:1 
+`uc 1 PLEN2 1 0 :1:2 
+`uc 1 PLEN3 1 0 :1:3 
+`uc 1 PLEN4 1 0 :1:4 
+]
+[u S366 . 1 `S358 1 . 1 0 `S360 1 . 1 0 ]
+[v _CRCCON1bits CRCCON1bits `VES366  1 e 1 @7334 ]
+"10916
+[v _CRCCON2 CRCCON2 `VEuc  1 e 1 @7335 ]
+"15078
+[v _RB6PPS RB6PPS `VEuc  1 e 1 @7578 ]
+"15098
+[v _RB7PPS RB7PPS `VEuc  1 e 1 @7579 ]
+"15946
+[v _SSP1CLKPPS SSP1CLKPPS `VEuc  1 e 1 @7751 ]
+"15998
+[v _SSP1DATPPS SSP1DATPPS `VEuc  1 e 1 @7752 ]
+"16202
+[v _ANSELA ANSELA `VEuc  1 e 1 @7820 ]
+"16280
+[v _WPUA WPUA `VEuc  1 e 1 @7821 ]
+"16330
+[v _ODCONA ODCONA `VEuc  1 e 1 @7822 ]
+"16375
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @7823 ]
+"16420
+[v _INLVLA INLVLA `VEuc  1 e 1 @7824 ]
+"16470
+[v _IOCAP IOCAP `VEuc  1 e 1 @7825 ]
+"16520
+[v _IOCAN IOCAN `VEuc  1 e 1 @7826 ]
+"16570
+[v _IOCAF IOCAF `VEuc  1 e 1 @7827 ]
+"16620
+[v _ANSELB ANSELB `VEuc  1 e 1 @7830 ]
+"16686
+[v _WPUB WPUB `VEuc  1 e 1 @7831 ]
+"16725
+[v _ODCONB ODCONB `VEuc  1 e 1 @7832 ]
+"16764
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @7833 ]
+"16803
+[v _INLVLB INLVLB `VEuc  1 e 1 @7834 ]
+"16842
+[v _IOCBP IOCBP `VEuc  1 e 1 @7835 ]
+"16881
+[v _IOCBN IOCBN `VEuc  1 e 1 @7836 ]
+"16920
+[v _IOCBF IOCBF `VEuc  1 e 1 @7837 ]
+"16959
+[v _ANSELC ANSELC `VEuc  1 e 1 @7840 ]
+"17071
+[v _WPUC WPUC `VEuc  1 e 1 @7841 ]
+"17133
+[v _ODCONC ODCONC `VEuc  1 e 1 @7842 ]
+"17195
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @7843 ]
+"17257
+[v _INLVLC INLVLC `VEuc  1 e 1 @7844 ]
+"17319
+[v _IOCCP IOCCP `VEuc  1 e 1 @7845 ]
+"17381
+[v _IOCCN IOCCN `VEuc  1 e 1 @7846 ]
+"17443
+[v _IOCCF IOCCF `VEuc  1 e 1 @7847 ]
+[s S185 . 3 `uc 1 greenChannel 1 0 `uc 1 redChannel 1 1 `uc 1 blueChannel 1 2 ]
+"47 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\main.c
+[v _colors colors `DC[24]S185  1 e 72 0 ]
+"39 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/clb/src/clb1.c
+[v _start_clb_config start_clb_config `us  1 e 2 0 ]
+"40 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/nvm/src/nvm.c
+[v _unlockKeyLow unlockKeyLow `VNEuc  1 s 1 unlockKeyLow ]
+"41
+[v _unlockKeyHigh unlockKeyHigh `VNEuc  1 s 1 unlockKeyHigh ]
+[s S688 . 5 `uc 1 stat 1 0 `uc 1 con1 1 1 `uc 1 con3 1 2 `uc 1 baud 1 3 `uc 1 clock 1 4 ]
+"55 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/spi/src/mssp1.c
+[v _spi1_configuration spi1_configuration `DC[2]S688  1 s 10 spi1_configuration ]
+"38 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/interrupt.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"66 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"76
+} 0
+"60
+[v _WriteLEDsArray WriteLEDsArray `(v  1 s 1 WriteLEDsArray ]
+{
+[s S185 . 3 `uc 1 greenChannel 1 0 `uc 1 redChannel 1 1 `uc 1 blueChannel 1 2 ]
+[v WriteLEDsArray@array array `DC*.25DCS185  1 p 2 9 ]
+"64
+} 0
+"81 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/spi/src/mssp1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spiConfigIndex spiConfigIndex `uc  1 p 1 6 ]
+"100
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"102 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/spi/src/mssp1.c
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+{
+"105
+} 0
+"107
+[v _SPI1_BufferExchange SPI1_BufferExchange `(v  1 e 1 0 ]
+{
+"109
+[v SPI1_BufferExchange@bufferInput bufferInput `*.25uc  1 a 2 6 ]
+"110
+[v SPI1_BufferExchange@bufferInputSize bufferInputSize `ui  1 a 2 4 ]
+"107
+[v SPI1_BufferExchange@bufferData bufferData `*.25v  1 p 2 0 ]
+[v SPI1_BufferExchange@bufferSize bufferSize `ui  1 p 2 2 ]
+"123
+} 0
+"39 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"48
+} 0
+"60 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/spi/src/mssp1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"38 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"114
+} 0
+"43 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/nvm/src/nvm.c
+[v _NVM_Initialize NVM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"65
+[v _NVM_StatusClear NVM_StatusClear `(v  1 e 1 0 ]
+{
+"68
+} 0
+"40 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"50
+} 0
+"71
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"73
+} 0
+"43 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_Initialize CRC_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"39 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"54
+} 0
+"45 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/clb/src/clb1.c
+[v _CLB1_Initialize CLB1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"108
+[v _CLB1_Configure CLB1_Configure `(v  1 e 1 0 ]
+{
+"111
+[v CLB1_Configure@end_address end_address `us  1 a 2 6 ]
+"108
+[v CLB1_Configure@start_address start_address `us  1 p 2 4 ]
+"126
+} 0
+"202 C:\Users\ESOURCE\MPLABXProjects\test\pic16f13145\test\221025_CLB\LAB_03\lab_03.X\mcc_generated_files/crc/src/crc.c
+[v _CRC_StopNvmScanner CRC_StopNvmScanner `T(v  1 e 1 0 ]
+{
+"210
+} 0
+"192
+[v _CRC_StartNvmScanner CRC_StartNvmScanner `T(v  1 e 1 0 ]
+{
+"200
+} 0
+"212
+[v _CRC_SetScannerAddressLimit CRC_SetScannerAddressLimit `(v  1 e 1 0 ]
+{
+[v CRC_SetScannerAddressLimit@startAddr startAddr `us  1 p 2 0 ]
+[v CRC_SetScannerAddressLimit@endAddr endAddr `us  1 p 2 2 ]
+"218
+} 0
+"220
+[v _CRC_IsScannerBusy CRC_IsScannerBusy `T(a  1 e 1 0 ]
+{
+"223
+} 0
